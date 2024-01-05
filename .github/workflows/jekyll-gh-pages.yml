@@ -33,16 +33,17 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          bundler-cache: true # 'bundle install' will be run and cached automatically
+          ruby-version: 2.7
+          bundler-cache: true
       - name: Install gems
-        run: |
-          bundle install
+        run: bundle install
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./      
           destination: ./_site
       - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         uses: actions/upload-pages-artifact@v3
   # Deployment job
   deploy:
