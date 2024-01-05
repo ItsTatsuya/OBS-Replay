@@ -19,9 +19,9 @@ You can use the settings in the screenshot below
 
 ![Output Mode](assets/quality.png)
 
-1. Go to Replay Buffer and set the `Replay Buffer Length` to your desired length. I recommend 60 seconds.
-2. Go to `Hotkeys` and set a hotkey for `Save Replay Buffer`. 
-3. Create a new scene and add the sources you want to record. For example, if you want to record your gameplay, add `Game Capture` as a source.
-4. Create a Shortcut of OBS Studio and copy it to shell:startup(using Run). This will make OBS Studio start automatically when you start your PC.
-5. Go to Properties of the Shortcut and add ` --disable-shutdown-check --startreplaybuffer` to the end of the `Target` field. This will make OBS Studio start recording automatically when you start your PC.
-6. Now, whenever you want to save a clip, press the hotkey you set in step 5. The clip will be saved in the `Videos` folder. You can change the location of the folder in `Settings` -> `Output` -> `Recording Path`.
+4. Go to Replay Buffer and set the `Replay Buffer Length` to your desired length. I recommend 60 seconds.
+5. Go to `Hotkeys` and set a hotkey for `Save Replay Buffer`. 
+6. Create a new scene and add the sources you want to record. For example, if you want to record your gameplay, add `Game Capture` as a source.
+7. Create a Shortcut of OBS Studio and copy it to shell:startup(using Run). This will make OBS Studio start automatically when you start your PC.
+8. Go to Properties of the Shortcut and add ` --disable-shutdown-check --startreplaybuffer` to the end of the `Target` field. This will make OBS Studio start recording automatically when you start your PC.
+9. Now, whenever you want to save a clip, press the hotkey you set in step 5. The clip will be saved in the `Videos` folder. You can change the location of the folder in `Settings` -> `Output` -> `Recording Path`.
