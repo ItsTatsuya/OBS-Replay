@@ -35,6 +35,10 @@ jobs:
         with:
           ruby-version: 2.7
           bundler-cache: true
+      - name: Debug Bundler
+        run: |
+          cat Gemfile.lock || echo "No Gemfile.lock found"
+          bundle env
       - name: Install gems
         run: bundle install
       - name: Build with Jekyll
