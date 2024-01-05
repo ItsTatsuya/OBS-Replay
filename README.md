@@ -1,4 +1,4 @@
-#Alternative to NVIDIA ShadowPlay
+# Alternative to NVIDIA ShadowPlay
 
 ## Introduction
 NVIDIA ShadowPlay is a great tool for recording gameplay, but it has some limitations. For example, it only works on Windows,it only works with NVIDIA graphics cards and you dont have any control over the sources being recorded.
